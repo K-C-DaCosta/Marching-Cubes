@@ -3,7 +3,7 @@ I implemented marching cubes a while back for a course on VR,this is the impleme
 
 
 ## Challenges
-Easily the biggest challenge was generating the lookup table for all 256 possible cases. There is even a bug in the original paper that causes wholes to show up in the mesh, but I googled around and found the fix for that.
+Easily the biggest challenge was generating the lookup table for all 256 possible cases. There is even a bug in the original paper that causes holes to show up in the mesh, but I googled around and found the fix for that.
 
 # alternate isosurface extraction using surface nets
 There is also a "surface nets" implementation in here that was much simpler than marching cubes, it requires no 
